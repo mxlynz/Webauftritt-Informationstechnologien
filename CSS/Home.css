@@ -1,0 +1,74 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#SpielfeldBild {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1000px) {
+    img {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+
+    .UntereReihe,
+    .ObereReihe {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    #Spielfeld {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #SpielfeldText {
+        min-width: 300px;
+    }
+
+    #SpielfeldBild {
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.Unterpunkte,
+.Schiedsrichter,
+.Angriff {
+    margin: 2%
+}
+
+.rot {
+    color: red
+}
+
+#grün {
+    color: green;
+}
+
+#blau {
+    color: deepskyblue;
+}
+
+#gelb {
+    background-color: gold;
+}
+
+#lila {
+    color: blueviolet;
+}

@@ -1,0 +1,34 @@
+p {
+    margin: 2%;
+}
+
+img {
+    max-width: 100%;
+    width: 40%;
+}
+
+.obererInhalt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#rechts {
+    display: flex;
+    justify-content: center
+}
+
+@media screen and (min-width:1000px) {
+
+    .obererInhalt {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .Alles {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

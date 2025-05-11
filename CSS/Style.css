@@ -1,0 +1,75 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    ;
+}
+
+* {
+    font-family: 'Teko';
+    font-size: 20px;
+    ;
+}
+
+
+footer div:hover,
+nav div:hover {
+    background-color: rgb(121, 141, 165);
+}
+
+h1 {
+    border: black;
+    background-color: lightsteelblue;
+    margin: 1%;
+    font-size: 40px;
+}
+
+h2 {
+    background-color: rgba(140, 162, 192, 0.897);
+    margin: 1%;
+    font-size: 30px;
+}
+
+h3 {
+    background-color: rgba(176, 196, 222, 0.897);
+    font-size: 25px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid;
+    background-image: url(../Bilder/HintergrundFooter.jpg);
+    background-position: center;
+}
+
+nav div,
+footer div {
+    border: solid;
+    padding: 2%;
+    margin: 1%;
+    background-color: lightsteelblue;
+}
+
+nav {
+    border: solid;
+    background-image: url(../Bilder/Hintergrund.jpg);
+    background-position: center;
+}
+
+body {
+    border: none;
+}
+
+a:visited,
+a:link {
+    color: black;
+}
+
+div a {
+    font-style: normal;
+}

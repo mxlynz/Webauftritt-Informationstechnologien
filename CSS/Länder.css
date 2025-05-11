@@ -1,0 +1,38 @@
+img {
+    max-width: 100%;
+    width: 50%
+}
+
+.Bilder {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width:1000px) {
+
+
+    img {
+        max-width: 30%;
+    }
+
+    #Länder {
+        display: flex;
+        flex-direction: row
+    }
+
+    .Spanien,
+    .USA {
+        display: flex;
+        flex-direction: column-reverse
+    }
+
+    h2 {
+        order: 1
+    }
+}
+
+.Spanien,
+.USA {
+    margin: 2%;
+}

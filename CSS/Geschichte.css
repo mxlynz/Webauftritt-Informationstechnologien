@@ -1,0 +1,57 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#Bilder {
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.Textbilder {
+    display: flex;
+    justify-content: center
+}
+
+main {
+    display: flex;
+}
+
+dd {
+    margin-right: 5%;
+}
+
+
+@media screen and (max-width:1000px) {
+    dd img {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    dd img {
+        max-width: 40%;
+    }
+
+    #Bilder {
+        max-width: 10%
+    }
+
+
+    ul {
+        display: flex;
+    }
+
+    .Bildformation {
+        display: flex;
+        flex-direction: column
+    }
+}
+
+dt {background-color:lightsteelblue;
+border: solid;
+}

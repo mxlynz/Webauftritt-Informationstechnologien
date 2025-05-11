@@ -1,0 +1,20 @@
+img {
+    max-width: 100%;
+    width: 15%;
+}
+
+.Unterpunkte {
+    display: flex;
+}
+
+dl,
+.Veranstaltungen {
+    margin: 2%
+}
+
+@media screen and (min-width:1000px) {
+    .Steckbrief {
+        display: flex;
+        flex-direction: row;
+    }
+}

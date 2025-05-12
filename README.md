@@ -4,7 +4,7 @@ Dies ist ein Webauftritt, erstellt im Rahmen des Moduls *Informationstechnologie
 Es enthält ein responsives HTML/CSS-Projekt mit modernen Webstandards. Ziel war es, grundlegende Webentwicklung praxisnah umzusetzen und erste Erfahrungen zu sammeln.
 
 ## Link zur Website
-![Link zur Website](https://mxlynz.github.io/Webauftritt-Informationstechnologien/HTML/Home.html)
+[Webauftritt – Startseite](https://mxlynz.github.io/Webauftritt-Informationstechnologien/HTML/Home.html)
 
 ## Technologien
 - HTML

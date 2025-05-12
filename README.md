@@ -3,6 +3,9 @@
 Dies ist ein Webauftritt, erstellt im Rahmen des Moduls *Informationstechnologien* an der Hochschule der Medien, im 1. Semester (WS 2022/23). 
 Es enthält ein responsives HTML/CSS-Projekt mit modernen Webstandards. Ziel war es, grundlegende Webentwicklung praxisnah umzusetzen und erste Erfahrungen zu sammeln.
 
+## Link zur Website
+![Link zur Website](https://mxlynz.github.io/Webauftritt-Informationstechnologien/HTML/Home.html)
+
 ## Technologien
 - HTML
 - CSS
